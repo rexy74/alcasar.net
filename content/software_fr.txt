@@ -1,0 +1,2 @@
+tilte_soft=Logiciel
+content_soft=ALCASAR s'appuie sur les logiciels libres suivants 

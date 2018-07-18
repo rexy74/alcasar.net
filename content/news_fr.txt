@@ -1,0 +1,6 @@
+news= Nouveau
+content=1 aout 2017 - La version 3.1.4 est disponible
+number_change=3
+change_0=Lorem Ipsum is simply dummy text of the printing and typesetting industry
+change_1=Lorem Ipsum is simply dummy text of the printing and typesetting industry
+change_2=Lorem Ipsum is simply dummy text of the printing and typesetting industry

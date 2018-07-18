@@ -1,0 +1,13 @@
+num_1=Contributions
+num_2=ALCASAR is also an French non-proft association created to federate the project members and to promote the open-source software.
+num_3=So you can contribute to the project in diferent ways :
+num_4=Cromote the project if you are happy to use it ;
+num_5=give your help on the forum by answering questions from other users ;
+num_6=suggest a technical evolution. You can see current evolutions on the collaborative project server
+num7=
+num_8=(svn.alcasar.net) ;
+num_9=join the association or make a donation.
+num_10=The incoming founds allow to :
+num_11=pay the servers hosting (WEB and development) ;
+num_12=pay the domain name "alcasar.net" and the security certifcates ;
+num_13=thank the contributors Pgoodies beers pizzas).

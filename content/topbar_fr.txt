@@ -1,0 +1,12 @@
+num_1=Présentation
+num_2=Introduction
+num_3=Objectifs
+software=logiciel
+num_4=Exploitation
+num_5=Contribution
+num_6=Nouveauté
+num_7=Téléchargement
+num_8=Travaux en cours
+num_9=Forum
+num_10=À propos
+num_11=Équipe

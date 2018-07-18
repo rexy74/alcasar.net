@@ -1,0 +1,1 @@
+description_fr=Ce site web d'Alcasar permet d'illustrer la fonctionnalité de ce produit. La déscription, l'utilité est mis en avant et vous pouvez télécharger l'archive d'installation. Vous avez les nouveautés sur Alacsar et tout les documentations.

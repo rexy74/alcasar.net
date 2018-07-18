@@ -1,0 +1,35 @@
+team=team
+desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+nb_member=6
+
+adm=Administrator
+memberAdm_N1=Rexy
+memberAdm_D1=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+memberAdm_N2=Franck BOUIJOUX
+memberAdm_D2=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+member_N1=member1
+member_D1=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_G1=https://github.com
+member_L1=https://www.linkedin.com/
+
+member_N2=member2
+member_D2=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+member_N3=member3
+member_D3=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+member_N4=member3
+member_D4=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_G4=https://github.com
+member_L4=https://www.linkedin.com/
+
+member_N5=member5
+member_D5=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+
+member_N6=member6
+member_D6=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_G6=https://github.com
+member_L6=https://www.linkedin.com/

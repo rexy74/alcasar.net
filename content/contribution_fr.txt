@@ -1,0 +1,14 @@
+num_1=Contributions
+num_2=ALCASAR est aussi une association à but non lucratif Ploi 1901) créée afn de fédérer les membres du projet et pour promouvoir le logiciel libre. Elle est membre de l'ACRIL.
+num_3=Vous pouvez ainsi contribuer au projet de plusieurs manières :
+num_4=Cromouvoir le projet si celui-ci vous donne satisfaction ;
+num_5=proposer votre aide sur le forum en répondant aux autres utilisateurs du projet ;
+num_6=proposer des évolutions techniques. Vous pouvez voir les évolutions en cours sur le serveur
+num_7=collaboratif du projet 
+num_8=(svn.alcasar.net);
+num_9=faire un don. L'association vous fournira alors une attestation pour défscaliser votre don à auteur de 66% Ppour un particulier).
+num_10=Les fonds récoltés permettent :
+num_11=de financer les serveurs hébergeant le projet PWEB et développement collaboratif) ;
+num_12=de financer le nom de domaine "alcasar.net" et les certifcats associés ;
+num_13=de remercier les contributeurs Pgoodies bières pizzas).
+
