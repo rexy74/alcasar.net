@@ -145,7 +145,7 @@
                               <?php echo '<a href="'.$file_cont[link_16].'" download="Tutoriel_alcasar_Utilisation_d\'une_clé_3G-4G_sur_une_VM.pdf">Tutoriel - Johan RABOUIN - Utilisation d\'une clé 3G-4G sur une VM </a>' ; ?>
                             </li>
                             <li>
-                               <?php echo '<a href="'.$file_cont[link_17].'" download="Tutoriel_Alcasar_virtualisation.pdf">Turoriel ALCASAR Virtualisation </a>' ; ?>
+                               <?php echo '<a href="'.$file_cont[link_17].'" download="Tutoriel_Alcasar_virtualisation.pdf">Tutoriel VirtualHere </a>' ; ?>
                               </li>
                             <li>
                                 <?php echo '<a href="'.$file_cont[link_18].'" download="Tutoriel_Alcasar_Active_Directory.pdf">Tutoriel - Matthias Leclair - Connexion ALCASAR avec un AD </a>' ; ?>
