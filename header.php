@@ -20,6 +20,12 @@
           $file_topBar = loadLanguage("topbar_en.txt",$basepath);
           break;
   }
+    header('X-Frame-Options: SAMEORIGIN');
+    header("Strict-Transport-Security:max-age=63072000");
+    header("Referrer-Policy : same-origin");
+    header("X-XSS-Protection: 0");
+    header('X-Content-Type-Options: nosniff');
+    header_remove("X-Powered-By");
 ?>
 
 <!DOCTYPE html>
@@ -74,13 +80,13 @@
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <?php echo "$file_topBar[num_1]"; ?>
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <a href="/index.php"><button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_2]"; ?> </t></button></a>
-    <a href="/presentation/goal.php"><button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_3]"; ?> </t></button></a>
-    <a href="/presentation/exploitation.php"> <button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_4]"; ?> </t></button></a>
-    <a href="/presentation/contribution.php"> <button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_5]"; ?> </t></button></a>
-      <a href="/presentation/software.php"> <button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[software]"; ?> </t></button></a>
-      <a href="/presentation/team.php"> <button class="dropdown-item buttonTopBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_11]"; ?> </t></button></a>
+  <div class="dropdown-menu btnBackground" aria-labelledby="dropdownMenu2">
+    <a href="/index.php"><button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_2]"; ?> </t></button></a>
+    <a href="/presentation/goal.php"><button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_3]"; ?> </t></button></a>
+    <a href="/presentation/exploitation.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_4]"; ?> </t></button></a>
+    <a href="/presentation/contribution.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_5]"; ?> </t></button></a>
+      <a href="/presentation/software.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[software]"; ?> </t></button></a>
+      <a href="/presentation/team.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_11]"; ?> </t></button></a>
   </div>
 </div></li>
      <li><a href="/news.php" class="page-scroll"><?php echo "$file_topBar[num_6]"; ?></a></li>

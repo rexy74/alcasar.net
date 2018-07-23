@@ -31,4 +31,4 @@ donate=donation
 nb_Visitor=3468843
 downloadTarball=Tarball dowloads
 nb_downloadTarball=28186
-downloadDoc=10278
+downloadDoc=9923

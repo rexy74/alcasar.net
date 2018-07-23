@@ -71,6 +71,20 @@ p {
 a {
 	color: #fff;
 }
+
+
+.noBorderBar
+{
+	border-top-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-left-width: 0px;
+	border-left-style: solid;
+
+}
 a:hover, a:focus {
 	text-decoration: none;
 	color: #25BAD0;
@@ -318,11 +332,17 @@ header .intro-text {
 
 .buttonTopBar
 {
-	border-radius: 10%;
+	text-align: left;
 	background: #053740;
 	margin-bottom: 4px;
 	width: 95%;
 	margin-left: 3px;
+}
+
+
+.btnBackground
+{
+	background: #053740;
 }
 
 /* goal Section */
@@ -885,6 +905,11 @@ header .intro-text {
 	margin-left: 534px;
 	margin-top: -484px;
 	margin-bottom: 30px;
+}
+
+.oui
+{
+	padding-bottom: 60% !important;
 }
 
 #servicesContribution  {

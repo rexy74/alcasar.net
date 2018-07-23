@@ -23,12 +23,11 @@
 <div class="intro">
     <div class="overlay">
         <div class="container">        
-            <div id="servicesContribution" class="text-center" >
+            <div id="servicesContribution"  class="oui">
 
                 
-        <div class="">
           <div class="centerText">
-                      <h2> <?php echo "$file_cont[tilte_soft]"; ?> </h2>
+               <h2> <?php echo "$file_cont[tilte_soft]"; ?> </h2>
                 <p><?php echo "$file_cont[content_soft]"; ?></p>
 
 
@@ -39,7 +38,8 @@
                       <div class="hover-bg"> <a href="https://en.wikipedia.org/wiki/Linux" target="_blank" >
                         <div class="hover-text">
                           <h4>Operating System</h4>
-                          <small>Linux</small> </div>
+                          <small>Linux</small>
+                           </div>
                         <img src="/img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> 
                       </div>
                     </div>
@@ -51,11 +51,13 @@
                       <div class="hover-bg"> <a href="https://www.mageia.org" target="_blank">
                         <div class="hover-text">
                           <h4>Operating System</h4>
-                          <small>Mageia</small> </div>
+                          <small>Mageia</small> 
+                        </div>
                         <img src="/img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> 
                       </div>
                     </div>
                   </div>
+
                   <div class="col-sm-5   col-lg-2">
                     <div class="portfolio-item">
                       <div class="hover-bg"> <a href="https://coova.github.io/" target="_blank">
@@ -223,14 +225,6 @@
                       </div>
                     </div>
                   </div>
-
-                </div>
-
-
-
-
-
-
 
 
 

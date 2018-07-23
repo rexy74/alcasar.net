@@ -33,4 +33,4 @@ nb_Visitor=3468843
 donate=don
 downloadTarball=téléchargements de l'archive d'installation
 nb_downloadTarball=28186
-downloadDoc=10278
+downloadDoc=9923
