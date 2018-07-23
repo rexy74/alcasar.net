@@ -22,10 +22,10 @@
   }
     header('X-Frame-Options: SAMEORIGIN');
     header("Strict-Transport-Security:max-age=63072000");
-    header("Referrer-Policy : same-origin");
+    //header("Referrer-Policy : same-origin");
     header("X-XSS-Protection: 0");
     header('X-Content-Type-Options: nosniff');
-    header_remove("X-Powered-By");
+    //header_remove("X-Powered-By");
 ?>
 
 <!DOCTYPE html>
