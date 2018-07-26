@@ -85,20 +85,30 @@
           <div id="outPopUp">
                 <div class="col-md-5">
                     <ul class="why-li">
-                        <li><?php echo "$file_content[reason_1]"; ?> </li>
-                        <li><?php echo "$file_content[reason_2]"; ?></li>
-                        <li><?php echo "$file_content[reason_3]"; ?></li>
-                        <li><?php echo "$file_content[reason_4]"; ?></li>
-                        <li><?php echo "$file_content[reason_5]"; ?></li>
+                      <?php 
+                          if( $file_content[nb_reason] > 5) 
+                          {
+                            $counter = 5;
+                          }
+                          else
+                          {
+                             $counter = $file_content[nb_reason];
+                          }
+                      ?>
+                      <?php for($i = 1; $i <= $counter; $i++ ): ?>
+                       <?php $indexReason = "reason_" . $i; ?>
+                       <li><?php echo "$file_content[$indexReason]"; ?> </li>
+                        <?php endfor; ?>
                     </ul>
                 </div>
                 <div class="col-md-5">
                     <ul class="why-li">
-                       <li><?php echo "$file_content[reason_6]"; ?> </li>
-                        <li><?php echo "$file_content[reason_7]"; ?> </li>
-                        <li><?php echo "$file_content[reason_8]"; ?></li>
-                        <li><?php echo "$file_content[reason_9]"; ?></li>
-                        <li><?php echo "$file_content[reason_10]"; ?></li>
+                      <?php if( $file_content[nb_reason] > 5) : ?>
+                          <?php for($i = 6; $i <= $file_content[nb_reason]; $i++ ): ?>
+                              <?php $indexReason = "reason_" . $i; ?>
+                              <li><?php echo "$file_content[$indexReason]"; ?> </li>
+                          <?php endfor; ?>
+                      <?php endif;?>
                     </ul>
                 </div>
             </div> 

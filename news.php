@@ -50,6 +50,10 @@
              </div>
 
             </div>
+              <div style="margin-top: 70px;">
+                 <!-- <img   src="/img/arrow_news.png"> -->
+              </div>
+                
           </div>
 
       </div>

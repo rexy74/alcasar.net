@@ -20,6 +20,7 @@
           $file_cont = loadLanguage("download_en.txt","root");
           break;
   }
+  $version = $file_cont [version];
 ?>
 <div class="intro">
     <div class="overlay">
@@ -72,32 +73,32 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                             <li> 
-                              <?php echo '<a href="'.$file_cont[link_1].'" download="alcasar-3.2-exploitation-en.pdf">alcasar-3.2-exploitation-en.pdf  </a>'; ?>
+                              <?php echo '<a href="'.$file_cont[link_1].'" download="'.$version.'-exploitation-en.pdf">'.$version.'-exploitation-en.pdf  </a>'; ?>
                             </li>
                             <li> 
-                              <?php echo '<a href="'.$file_cont[link_2].'" download="alcasar-3.2-installation-en.pdf">alcasar-3.2-installation-en.pdf  </a> '; ?>
+                              <?php echo '<a href="'.$file_cont[link_2].'" download="'.$version.'-installation-en.pdf">'.$version.'-installation-en.pdf  </a> '; ?>
                             </li>
                             <li> 
-                             <?php echo '<a href="'.$file_cont[link_3].'" download="alcasar-3.2-presentation-en.pdf">alcasar-3.2-presentation-en.pdf </a> '; ?>
+                             <?php echo '<a href="'.$file_cont[link_3].'" download="'.$version.'-presentation-en.pdf">'.$version.'-presentation-en.pdf </a> '; ?>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="check-li">
                            <li>
-                           <?php echo '<a href="'.$file_cont[link_4].'" download="alcasar-3.2-exploitation-fr.pdf" >alcasar-3.2-exploitation-fr.pdf </a> ' ; ?>
+                           <?php echo '<a href="'.$file_cont[link_4].'" download="'.$version.'-exploitation-fr.pdf" >'.$version.'-exploitation-fr.pdf </a> ' ; ?>
                            </li>
                             <li> 
-                              <?php echo '<a href="'.$file_cont[link_5].'" download="alcasar-3.2-installation-fr.pdf">alcasar-3.2-installation-fr.pdf  </a> ' ; ?>
+                              <?php echo '<a href="'.$file_cont[link_5].'" download="'.$version.'-installation-fr.pdf">'.$version.'-installation-fr.pdf  </a> ' ; ?>
                             </li>
                             <li> 
-                              <?php echo '<a href="'.$file_cont[link_6].'" download="alcasar-3.2-presentation-fr.pdf">alcasar-3.2-presentation-fr.pdf </a> ' ; ?>
+                              <?php echo '<a href="'.$file_cont[link_6].'" download="'.$version.'-presentation-fr.pdf">'.$version.'-presentation-fr.pdf </a> ' ; ?>
                             </li>
 
                         </ul>
                     </div>
 
-                    <i class="fa fa-download" style="color: #0e8390 ; margin-left: 5%; margin-top: 5%"> </i> <?php echo '<a href="'.$file_cont[link_7].'" download="alcasar-3.2-technique.pdf">alcasar-3.2-technique.pdf </a> ';?> 
+                    <i class="fa fa-download" style="color: #0e8390 ; margin-left: 5%; margin-top: 5%"> </i> <?php echo '<a href="'.$file_cont[link_7].'" download="'.$version.'-technique.pdf">'.$version.'-technique.pdf </a> ';?> 
                      <i class="fa fa-download" style="color: #0e8390 ;  margin-left: 5%;"> </i> <?php echo '<a href="'.$file_cont[link_8].'" download="changelog">changelog</a> ';?> 
 
                  </div>

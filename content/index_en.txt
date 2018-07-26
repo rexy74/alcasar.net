@@ -14,16 +14,13 @@ why=why alcasar ?
 tilte_soft=software
 content_soft=ALCASAR uses the following "open sources" software
 
-reason_1=alcasar love <3
-reason_2=alcasar love <3
-reason_3=alcasar love <3
-reason_4=alcasar love <3
-reason_5=alcasar love <3
-reason_6=alcasar love <3
-reason_7=alcasar love <3
-reason_8=alcasar love <3
-reason_9=alcasar love <3
-reason_10=alcasar love <3
+nb_reason=6
+reason_1=Authenticate and control Internet accesses
+reason_2=Trace and impute while respecting french & european laws
+reason_3=Respect the private life
+reason_4=Protect and filter flows per users ou users group ...
+reason_5=Blacklist or whitelist filtering
+reason_6=Free & open source
 	
 someState=Some Stats
 Visitor=Visitor number 2017

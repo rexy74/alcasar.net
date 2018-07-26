@@ -37,7 +37,7 @@
       <div class="centerTeam"> 
           <div id="row">
               <div class="col-md-3">
-                 <img src="/img/team/Richard-Rey.jpg" alt="..." class="img-circle team-img">
+                 <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                   <div class="caption">
                     <h3><?php echo "$file_cont[memberAdm_N1]"; ?> 
                     </h3>

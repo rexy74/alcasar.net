@@ -14,18 +14,15 @@ why=Pourquoi alcasar ?
 tilte_soft=Logiciel
 content_soft=ALCASAR s'appuie sur les logiciels libres suivants 
 
-
-
-reason_1=alcasar love <3
-reason_2=alcasar love <3
-reason_3=alcasar love <3
-reason_4=alcasar love <3
-reason_5=alcasar love <3
-reason_6=alcasar love <3
-reason_7=alcasar love <3
-reason_8=alcasar love <3
-reason_9=alcasar love <3
-reason_10=alcasar love <3
+nb_reason=8
+reason_1=Authentifie et contrôle les accès à Internet
+reason_2=Trace et impute les connexions conformément aux lois françaises et européennes
+reason_3=Respecte la vie privée
+reason_4=Protège et filtre les flux par utilisateur ou groupe d'utilisateurs (antivirus HTTP, filtrage de noms de domaine, d'URLs et d'adresses IP)
+reason_5=Filtrage par liste noire ou liste blanche
+reason_6=Contrôle parental par utilisateur ou groupe d'utilisateurs (temps de connexion, périodes autorisées, volume maximum téléchargé, bande passante autorisée)
+reason_7=Fonctionne sous forme de machine virtuelle ou sur mini-PC avec deux cartes réseaux
+reason_8=Libre et gratuit
 
 someState=quelques statistiques
 Visitor=Nombre de visiteurs 2017
