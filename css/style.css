@@ -333,6 +333,7 @@ header .intro-text {
 .buttonTopBar
 {
 	text-align: left;
+	color: #25BAD0;
 	background: #053740;
 	margin-bottom: 4px;
 	width: 95%;
@@ -905,11 +906,6 @@ header .intro-text {
 	margin-left: 534px;
 	margin-top: -484px;
 	margin-bottom: 30px;
-}
-
-.oui
-{
-	padding-bottom: 60% !important;
 }
 
 #servicesContribution  {

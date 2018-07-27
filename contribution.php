@@ -1,6 +1,6 @@
 <?php
-  $basepath = "prst";
-  require "../header.php";
+  $basepath = "root";
+  require "header.php";
   
   $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
   
@@ -8,15 +8,15 @@
   {
       case "fr":
         //echo "PAGE FR";
-        $file_cont = loadLanguage("contribution_fr.txt","prst");
+        $file_cont = loadLanguage("contribution_fr.txt","root");
         break;
       case "en":
           //echo "PAGE EN";
-          $file_cont = loadLanguage("contribution_en.txt","prst");
+          $file_cont = loadLanguage("contribution_en.txt","root");
           break;        
       default:
           //echo "PAGE EN - Setting Default";
-          $file_cont = loadLanguage("contribution_en.txt","prst");
+          $file_cont = loadLanguage("contribution_en.txt","root");
           break;
   }
 ?>
@@ -68,28 +68,30 @@
 
                 </div>
 
+                 <ul class="" >
+                <li>
+                  <i class="fa fa-envelope liAbout"  style="margin-left: 40px;"> <t class="colorTxt"> <img src="/img/alcasar_mail.png"> </t> </i>
+                  <i class="fa fa-wechat liAbout"  style="margin-left: 40px;"> <a href="http://adullact.net/forum/?group_id=450"> <t class="colorTxt"> Forum </t> </a></i>
+                  <i class="fa fa-upload liAbout"  style="margin-left: 40px;"> <a href="http://svn.alcasar.net"> <t class="colorTxt"> SVN </t> </a></i>
+                  
+                </li>
+              </ul>
 
             </div>
 
         </div>
-        <?php if($lang == "fr") : ?>
-           <div class="imgPaddingContribution">
-             <a href="https://www.paypal.com/donate/?token=zgmVIQ2eUz4XIVIjiqzYGaCTPnLsGAgD0cDxotvNrej9Pr_OEWVxtAbxTTRz8NvXm9Tp20&country.x=US&locale.x=US&Z3JncnB0="><img src="/img/btn_donate_fr.png"></a>
-        </div>
-        <?php else :  ?>
-
-        <div class="imgPaddingContribution">
-             <a href="https://www.paypal.com/donate/?token=zgmVIQ2eUz4XIVIjiqzYGaCTPnLsGAgD0cDxotvNrej9Pr_OEWVxtAbxTTRz8NvXm9Tp20&country.x=US&locale.x=US&Z3JncnB0="><img src="/img/btn_donate.png"></a>
-        </div>
-        <?php endif ;  ?>
-             
-          
-  
-
+        
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VUC4TDGWADVDU">
+            <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - la solution de paiement en ligne la plus simple et la plus sécurisée !">
+            <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            <img class="aprilImg" src="/img/april.png">
     </div>
 </div>
 
 <?php
 
-  require "../footer.php";
+  require "footer.php";
 ?>

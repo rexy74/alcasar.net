@@ -84,7 +84,6 @@
     <a href="/index.php"><button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_2]"; ?> </t></button></a>
     <a href="/presentation/goal.php"><button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_3]"; ?> </t></button></a>
     <a href="/presentation/exploitation.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_4]"; ?> </t></button></a>
-    <a href="/presentation/contribution.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_5]"; ?> </t></button></a>
       <a href="/presentation/software.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[software]"; ?> </t></button></a>
       <a href="/presentation/team.php"> <button class="dropdown-item buttonTopBar noBorderBar"  type="button">  <t class="colorBlue"> <?php echo "$file_topBar[num_11]"; ?> </t></button></a>
   </div>
@@ -93,7 +92,7 @@
       <li><a href="/download.php" class="page-scroll"><?php echo "$file_topBar[num_7]"; ?></a></li>
       <li><a href="/work_progress.php" class="page-scroll"><?php echo "$file_topBar[num_8]"; ?></a></li>
         <li><a href="http://adullact.net/forum/?group_id=450" class="page-scroll"><?php echo "$file_topBar[num_9]"; ?></a></li>
-        <li style="left: -10px;"><a href="/about.php" class="page-scroll"><?php echo "$file_topBar[num_10]"; ?></a></li>
+        <li style="left: -10px;"><a href="/contribution.php" class="page-scroll"><?php echo "$file_topBar[num_5]"; ?></a></li>
         <!-- <li style="left: -5px;"><a href="/about.php"   class="page-scroll"> Team</a></li> -->
       </ul>
     </div>

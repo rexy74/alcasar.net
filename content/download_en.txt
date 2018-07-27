@@ -1,5 +1,5 @@
 title=Download Alcasar stable
-version=alcasar 3.2
+version=alcasar-3.3
 download=Download
 descpt= This folder contains the last stable version of ALCASAR and some additional scripts.
 sha256=fb751686a2ccddc56f2b5650c9291d6c2f3808cf7cc5c8182ee47ac2a2bce1c0
@@ -9,7 +9,6 @@ num_3=2 network devices
 num_4=100 GB of free drive space (Virtual Machine 30 GB)
 num_5=64-bit compatible System
 num_6=Internet access is essential
-version=alcasar-3.3
 link_tarball=http://adullact.net/frs/download.php/file/8187/alcasar-3.2.tar.gz
 link_mageia=http://ftp.free.fr/mirrors/mageia.org/iso/6/Mageia-6-x86_64-DVD/Mageia-6-x86_64-DVD.iso
 link_readme=https://adullact.net/docman/view.php/450/3761/readme.txt

@@ -71,7 +71,6 @@
   </div>
 </div>
 
-
 <div id="whyContainer">
     <div class="text-center" > 
       <h2> <?php echo "$file_content[why]"; ?></h2>
@@ -86,7 +85,7 @@
                 <div class="col-md-5">
                     <ul class="why-li">
                       <?php 
-                          if( $file_content[nb_reason] > 5) 
+                          if($file_content[nb_reason] > 5) 
                           {
                             $counter = 5;
                           }

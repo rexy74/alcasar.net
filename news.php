@@ -37,7 +37,7 @@
                 <?php endif; ?>
               </div>
             <div class="newTxt">
-            <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;"><?php echo " $file_cont[content] "; ?></p> 
+            <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;">   <?php echo " $file_cont[content] "; ?> <a href="/download.php"> <i class="fa fa-download" style="color: #0e8390"> </i> </a> </p> 
               <div class="" style="margin-left: 20px;" >
                    
                         <ul class="plus-news">
