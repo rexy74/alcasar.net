@@ -1166,6 +1166,13 @@ header .intro-text {
 
 }
 
+
+
+#conatainerSoft  {
+	padding: 100px 0px 584px 0px;
+	background: #053740;
+	margin-right: 15px;margin-left: 15px;
+}
 .paddingStats
 {
 	margin-bottom: 220px;
