@@ -1,6 +1,5 @@
 news=new
-content=June, 6th 2017 - The version 3.1.2 is available
-number_change=3
-change_0=Lorem Ipsum is simply dummy text of the printing and typesetting industry
-change_1=Lorem Ipsum is simply dummy text of the printing and typesetting industry
-change_2=Lorem Ipsum is simply dummy text of the printing and typesetting industry
+content=July, 28th 2018 - The version 3.3.0 is available
+number_change=1
+change_0=Update automatically since version 3.2
+

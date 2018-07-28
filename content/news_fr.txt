@@ -1,6 +1,6 @@
 news= Nouveau
-content=1 aout 2017 - La version 3.1.4 est disponible
+content= 28 juillet 2018 - La version 3.3.0 est disponible
 number_change=3
-change_0=Lorem Ipsum is simply dummy text of the printing and typesetting industry
-change_1=Lorem Ipsum is simply dummy text of the printing and typesetting industry
-change_2=Lorem Ipsum is simply dummy text of the printing and typesetting industry
+change_0=La mise à jour depuis une version 3.2 est automatique
+change_1=pour une mise à jour depuis une version antérieure, lisez le fichier "readme" (lien vers le readme)
+change_2=la liste des évolutions entre versions est disponible dans le fichier "ChangeLog" (lien vers le Changelog)

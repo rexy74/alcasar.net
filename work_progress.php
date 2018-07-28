@@ -26,10 +26,11 @@
     <div class="overlay">
         <div class="container">        
                 <div class="hWork" > <?php echo "$file_cont[title]"; ?> </div>
+                <p> <?php echo "$file_cont[desc]"; ?>  <a style="color: #25BAD0;" href="http://svn.alcasar.net"> SVN</a>. </p>
             <div id="servicesWork">
 
                     
-                    <div style="margin-top: 72px;margin-left: -731px;margin-bottom: -268px;color: #25BAD0; position: relative;right: 51.333px;top: 79.167px;left: 541.667px;margin-right: 41px;width: 40%;text-align: right;">
+                    <div style="margin-top: -33px;margin-left: -731px;margin-bottom: -268px;color: #25BAD0; position: relative;right: 51.333px;top: 79.167px;left: 541.667px;margin-right: 41px;width: 40%;text-align: right;">
                       <ul class="work">
                         <li style="top: 7px;left: 0px; right: 0px;" >Security </li>
                         <li style="top: 11px;left: 0px; right: 0px;">New software  </li>

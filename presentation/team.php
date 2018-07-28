@@ -42,8 +42,7 @@
                     <h3><?php echo "$file_cont[memberAdm_N1]"; ?> 
                     </h3>
                     <h4 class="infoMember" >
-                    <i class="fa fa-linkedin"> </i>
-                    <i class="fa fa-github"> </i> 
+                      <?php echo "$file_cont[memberAdm_Psd1]"; ?> 
                     </h4>
                     <p><?php echo "$file_cont[memberAdm_D1]"; ?></p>
                 </div>
@@ -55,8 +54,7 @@
                       <?php echo "$file_cont[memberAdm_N2]"; ?>
                       </h3>
                     <h4 class="infoMember">
-                        <i class="fa fa-linkedin"> </i>
-                        <i class="fa fa-github"> </i> 
+                        <?php echo "$file_cont[memberAdm_Psd2]"; ?> 
                      </h4>
 
                     <p><?php echo "$file_cont[memberAdm_D2]"; ?></p>
@@ -83,26 +81,30 @@
              $tmp = $i*4 + 1;
              $name1 = "member_N".$tmp;
              $desc1 = "member_D".$tmp;
+             $pseudo1 ="member_Psd".$tmp;
              $Isgithub1 = "member_G".$tmp;
              $IsLinkdn1 = "member_L".$tmp;
 
              $tmp ++;
              $name2 = "member_N".$tmp;
              $desc2 = "member_D".$tmp;
+             $pseudo2 ="member_Psd".$tmp;
              $Isgithub2 = "member_G".$tmp;
              $IsLinkdn2 = "member_L".$tmp;
 
              $tmp ++;
              $name3 = "member_N".$tmp;
              $desc3 = "member_D".$tmp;
+             $pseudo3 ="member_Psd".$tmp;
              $Isgithub3 = "member_G".$tmp;
              $IsLinkdn3 = "member_L".$tmp;
              
              $tmp ++;
              $name4 = "member_N".$tmp;
+             $desc4 = "member_D".$tmp;
+             $pseudo4 ="member_Psd".$tmp;
              $Isgithub4 = "member_G".$tmp;
              $IsLinkdn4 = "member_L".$tmp;
-             $desc4 = "member_D".$tmp;
            ?>
         <div id="row" class="container">
             <div class="col-md-3 col-sm-6 team">
@@ -121,6 +123,9 @@
                      <?php echo' <a  class="infoMember" href="'.$file_cont[$IsLinkdn1].'" >
                      <i class="fa fa-linkedin"> </i>
                    </a>';?>
+                <?php endif;?>
+                <?php  if (!empty($file_cont[$pseudo1])): ?>
+                     <?php echo "$file_cont[$pseudo1]" ;?>
                 <?php endif;?>
                     </h4>
                 <p><?php echo "$file_cont[$desc1]"; ?></p>
@@ -141,6 +146,9 @@
                      <i class="fa fa-linkedin"> </i>
                    </a>';?>
                 <?php endif;?>
+                    <?php  if (!empty($file_cont[$pseudo2])): ?>
+                     <?php echo "$file_cont[$pseudo2]" ;?>
+                <?php endif;?>
                     </h4>
                 <p><?php echo "$file_cont[$desc2]"; ?></p>
               </div>
@@ -149,7 +157,7 @@
               <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                 <div class="caption">
                   <h3><?php echo "$file_cont[$name3]"; ?></h3>
-                       <h4 >
+                       <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub3])): ?>
                      <?php echo' <a class="infoMember"  href="'.$file_cont[$Isgithub3].'" >
                      <i class="fa fa-github"> </i>
@@ -159,6 +167,9 @@
                       <?php echo' <a class="infoMember"  href="'.$file_cont[$IsLinkdn3].'" >
                      <i class="fa fa-linkedin"> </i>
                    </a>';?>
+                <?php endif;?>
+                  <?php  if (!empty($file_cont[$pseudo3])): ?>
+                     <?php echo "$file_cont[$pseudo3]";?>
                 <?php endif;?>
                     </h4>
                   <p><?php echo "$file_cont[$desc3]"; ?></p>
@@ -180,6 +191,9 @@
                      <i class="fa fa-linkedin"> </i>
                    </a>';?>
                 <?php endif;?>
+                    <?php  if (!empty($file_cont[$pseudo4])): ?>
+                     <?php echo "$file_cont[$pseudo4]" ;?>
+                <?php endif;?>
                     </h4>
                     <p><?php echo "$file_cont[$desc4]"; ?></p>
                 </div>
@@ -193,8 +207,9 @@
               $tmp ++;
               $name1 = "member_N".$tmp;
               $desc1 = "member_D".$tmp;
+              $pseudo1 ="member_Psd".$tmp;
               $Isgithub1 = "member_G".$tmp;
-             $IsLinkdn1 = "member_L".$tmp;
+              $IsLinkdn1 = "member_L".$tmp;
              ?>
             <div class="col-md-3 col-sm-6 team">
              <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
@@ -210,6 +225,9 @@
                       <?php echo' <a class="infoMember"  href="'.$file_cont[$IsLinkdn1].'" >
                      <i class="fa fa-linkedin"> </i>
                    </a>';?>
+                <?php endif;?>
+                    <?php  if (!empty($file_cont[$pseudo1])): ?>
+                     <?php echo "$file_cont[$pseudo1]" ;?>
                 <?php endif;?>
                     </h4>
                 <p><?php echo "$file_cont[$desc1]"; ?></p>

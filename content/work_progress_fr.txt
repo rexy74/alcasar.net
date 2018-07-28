@@ -1,4 +1,5 @@
 title=Travaux en cours 
+desc=Cette page montre l'ensemble des travaux en cours et vous pouvez trouver plus de detail sur
 doc_task=Doc technique
 author_doc=mise à jour permanente (ALCASAR team)
 core_title=Core

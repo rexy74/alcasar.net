@@ -1,4 +1,5 @@
 title=Work in progress
+desc=This page shows all work in progress and we can find more details on
 doc_task=Technical Doc
 author_doc=permanently updated (ALCASAR team)
 core_title=Core

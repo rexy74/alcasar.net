@@ -34,7 +34,7 @@
                   <?php  echo '<a class="p-button--positive" href="'.$file_cont[link_tarball].'" download="alcasar-3.2.tar.gz">' ; echo "$file_cont[download] </a>" ;?>
                 </div> 
                 <p>  <?php echo "$file_cont[descpt]"; ?> </p>
-                <p> SHA256 : <?php echo "$file_cont[sha256]"; ?> </p>
+                <p> <?php echo "$file_cont[digest]"; ?> Sha256 : <?php echo "$file_cont[sha256]"; ?> </p>
                
                 
              <p style="margin-top: 24px;">  <?php echo "$file_cont[num_1]"; ?> </p>
@@ -73,26 +73,28 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                             <li> 
-                              <?php echo '<a href="'.$file_cont[link_1].'" download="'.$version.'-exploitation-en.pdf">'.$version.'-exploitation-en.pdf  </a>'; ?>
+                              <?php echo '<a href="'.$file_cont[link_3].'" download="'.$version.'-presentation-en.pdf">'.$version.'-presentation-en.pdf </a> '; ?>
                             </li>
                             <li> 
                               <?php echo '<a href="'.$file_cont[link_2].'" download="'.$version.'-installation-en.pdf">'.$version.'-installation-en.pdf  </a> '; ?>
                             </li>
                             <li> 
-                             <?php echo '<a href="'.$file_cont[link_3].'" download="'.$version.'-presentation-en.pdf">'.$version.'-presentation-en.pdf </a> '; ?>
+                             
+                              <?php echo '<a href="'.$file_cont[link_1].'" download="'.$version.'-exploitation-en.pdf">'.$version.'-exploitation-en.pdf  </a>'; ?>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="check-li">
                            <li>
-                           <?php echo '<a href="'.$file_cont[link_4].'" download="'.$version.'-exploitation-fr.pdf" >'.$version.'-exploitation-fr.pdf </a> ' ; ?>
+                          <?php echo '<a href="'.$file_cont[link_6].'" download="'.$version.'-presentation-fr.pdf">'.$version.'-presentation-fr.pdf </a> ' ; ?>
                            </li>
                             <li> 
                               <?php echo '<a href="'.$file_cont[link_5].'" download="'.$version.'-installation-fr.pdf">'.$version.'-installation-fr.pdf  </a> ' ; ?>
                             </li>
-                            <li> 
-                              <?php echo '<a href="'.$file_cont[link_6].'" download="'.$version.'-presentation-fr.pdf">'.$version.'-presentation-fr.pdf </a> ' ; ?>
+                            <li>
+                              <?php echo '<a href="'.$file_cont[link_4].'" download="'.$version.'-exploitation-fr.pdf" >'.$version.'-exploitation-fr.pdf </a> ' ; ?> 
+                              
                             </li>
 
                         </ul>

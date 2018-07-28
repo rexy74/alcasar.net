@@ -1,35 +1,107 @@
 team=équipe
-desc=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+desc=
 
-nb_member=6
+nb_member=23
 
-adm=Administrator
-memberAdm_N1=Rexy
-memberAdm_D1=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+adm=contributeur
+memberAdm_N1=Richard REY
+memberAdm_D1=Admin, Senior Developer
+memberAdm_Psd1=Rexy
 
 memberAdm_N2=Franck BOUIJOUX
-memberAdm_D2=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+memberAdm_D2=Admin, Senior Developer 
+memberAdm_Psd2=aaabtux
 
-member_N1=member1
-member_D1=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-member_G1=https://github.com
-member_L1=https://www.linkedin.com/
+member_N1=Stephane Weber
+member_D1=Senior Developer
+member_Psd1=steweb35
 
-member_N2=member2
-member_D2=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_N2=pascal levant
+member_D2=Senior Developer
+member_Psd2=angels95
 
-member_N3=member3
-member_D3=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_N3=Tom HOUDAYER
+member_D3=Senior Developer
+member_Psd3=tom-h
 
-member_N4=member3
-member_D4=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-member_G4=https://github.com
-member_L4=https://www.linkedin.com/
+member_N4=Stéphane ERARD
+member_D4=Junior Developer
+member_Psd4=ronsedmor
 
-member_N5=member5
-member_D5=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
+member_N5=Jean Baptiste
+member_D5=Junior Developer
+member_Psd5=j-b
 
-member_N6=member6
-member_D6=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-member_G6=https://github.com
-member_L6=https://www.linkedin.com/
+member_N6=Raphaël PION
+member_D6=Junior Developer
+member_Psd6=raphael.pion
+
+member_N7=Hamza ESSA
+member_D7=Junior Developer
+member_Psd7=querdos
+
+member_N8=Jonathan Déchaux
+member_D8=Junior Developer
+member_Psd8=vanyar
+
+member_N9=Lucas ECHARD
+member_D9=Junior Developer
+member_Psd9=lucas-ech
+
+member_N10=Yohan Dubanchet
+member_D10=Doc Writer
+member_Psd10=yohan
+
+member_N11=Clément Lespagnol
+member_D11=Doc Writer
+member_Psd11=zawawi
+
+member_N12=David dd
+member_D12=Support Tech 
+member_Psd12=dvau26
+
+member_N13=Pascal ROMERO
+member_D13=Support Tech
+member_Psd13=romerop
+
+member_N14=Vincent Boucard
+member_D14=Support Tech
+member_Psd14=vincent.boucard
+
+
+member_N15=Olivier C
+member_D15=Support Tech
+member_Psd15=ochancel
+
+member_N16=Laurent roux
+member_D16=Support Tech
+member_Psd16=lolo100090
+
+member_N17=Hugo Meziani
+member_D17=Padawan
+member_Psd17=kl0x41dgs
+
+member_N18=Clément Siccardi
+member_D18=Padawan
+member_Psd18=csiccardi 
+
+member_N19=Sory Ibrahima DANSOKHO
+member_D19=Padawan 
+member_Psd19=sory
+
+
+member_N20=Alexandre Dey
+member_D20=Padawan
+member_Psd20=alexdey
+
+member_N21=Armand Ito
+member_D21=Padawan 
+member_Psd21=dafox
+
+member_N22=Mohamad Ayache
+member_D22=Padawan 
+member_Psd22=mhdayache
+
+member_N23=RAKOT Fabien
+member_D23=Padawan 
+member_Psd23=rakofab
