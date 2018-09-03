@@ -656,7 +656,7 @@ header .intro-text {
 
 #dropdownPrsnt 
 {
-	margin-top: 10px;
+	margin-top: 7px;
 }
 
 
@@ -1218,8 +1218,6 @@ border-left-width: 0px;
 border-left-style: solid;
 margin-top: 23px;
 margin-bottom: 30px;
-
-	
 }
 
 .colorBlue
@@ -1230,7 +1228,7 @@ margin-bottom: 30px;
 {
 	margin-top: -13px;
 	text-align: center;
-	font-size: 8px;
+	font-size: 0.9em;
 }
 
 .fixPstCore
@@ -1242,7 +1240,7 @@ margin-bottom: 30px;
 .longDescriptTask
 {
 	text-align: left;
-	font-size: 10px;
+	font-size: 0.9em;
 	margin-bottom: 0px !important;
 }
 

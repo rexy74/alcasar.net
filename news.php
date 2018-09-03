@@ -9,15 +9,11 @@
       case "fr":
         //echo "PAGE FR";
         $file_cont = loadLanguage("news_fr.txt","root");
-        break;
-      case "en":
-          //echo "PAGE EN";
-          $file_cont = loadLanguage("news_en.txt","root");
-          break;        
+        break;     
       default:
-          //echo "PAGE EN - Setting Default";
-          $file_cont = loadLanguage("news_en.txt","root");
-          break;
+        //echo "PAGE EN - Setting Default";
+        $file_cont = loadLanguage("news_en.txt","root");
+        break;
   }
 ?>
 
@@ -37,13 +33,13 @@
                 <?php endif; ?>
               </div>
             <div class="newTxt">
-            <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;">   <?php echo " $file_cont[content] "; ?> <a href="/download.php"> <i class="fa fa-download" style="color: #0e8390"> </i> </a> </p> 
+            <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;">   <?= $file_cont['content'] ?> <a href="/download.php"> <i class="fa fa-download" style="color: #0e8390"> </i> </a> </p> 
               <div class="" style="margin-left: 20px;" >
                    
                         <ul class="plus-news">
                           <?php 
-                                for ($i=0; $i < $file_cont[number_change]; $i++) :  ?> 
-                                  <li class="liNews"> <?php $tmp = change_.$i; echo "$file_cont[$tmp]";?> </li>
+                                for ($i=0; $i < $file_cont['number_change']; $i++) :  ?> 
+                                  <li class="liNews"> <?= $file_cont['change_'.$i] ?> </li>
                                 <?php  endfor;?>
                         </ul>
 

@@ -17,7 +17,7 @@ task3_CoreC=Switch "Dansguardian" with "E2guardian"
 task3_Core%=100
 task3_CoreA=Armand
 
-task4_CoreC=Study for a synchro system for several ALCASAR (central ALCASAR + children). https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450
+task4_CoreC=Study for a synchro system for several ALCASAR (central ALCASAR + children). (see: <a href="https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450">forum</a>)
 task4_Core%=10
 task4_CoreA=Tom + Mohamad
 

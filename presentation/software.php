@@ -10,14 +10,10 @@
         //echo "PAGE FR";
         $file_cont = loadLanguage("software_fr.txt","prst");
         break;
-      case "en":
-          //echo "PAGE EN";
-          $file_cont = loadLanguage("software_en.txt","prst");
-          break;        
       default:
-          //echo "PAGE EN - Setting Default";
-          $file_cont = loadLanguage("software_en.txt","prst");
-          break;
+        //echo "PAGE EN - Setting Default";
+        $file_cont = loadLanguage("software_en.txt","prst");
+        break;
   }
 ?>
 <div class="intro">
@@ -27,8 +23,8 @@
 
                 
           <div class="centerText">
-               <h2> <?php echo "$file_cont[tilte_soft]"; ?> </h2>
-                <p><?php echo "$file_cont[content_soft]"; ?></p>
+               <h2> <?= $file_cont["tilte_soft"] ?> </h2>
+                <p><?= $file_cont["content_soft"] ?></p>
 
 
                 <div class="portfolio-items">

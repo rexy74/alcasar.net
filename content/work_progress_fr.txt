@@ -16,7 +16,7 @@ task3_CoreC=Migration "Dansguardian" vers "E2guardian"
 task3_Core%=100
 task3_CoreA=Armand
 
-task4_CoreC=Étudier un système de synchronisation d'un parc d'ALCASAR (alcasar central + satellites).https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450
+task4_CoreC=Étudier un système de synchronisation d'un parc d'ALCASAR (alcasar central + satellites). (voir : <a href="https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450">forum</a>)
 task4_Core%=10
 task4_CoreA=Tom + Mohamad
 

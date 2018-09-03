@@ -10,14 +10,10 @@
         //echo "PAGE FR";
         $file_cont = loadLanguage("team_fr.txt","prst");
         break;
-      case "en":
-          //echo "PAGE EN";
-          $file_cont = loadLanguage("team_en.txt","prst");
-          break;        
       default:
-          //echo "PAGE EN - Setting Default";
-          $file_cont = loadLanguage("team_en.txt","prst");
-          break;
+        //echo "PAGE EN - Setting Default";
+        $file_cont = loadLanguage("team_en.txt","prst");
+        break;
   }
 
 ?>
@@ -30,49 +26,50 @@
         <div class="container">
           <div class="centerText">
     <div class="col-md-8 col-md-offset-2 section-title">
-      <h2 style="margin-left: -110px;" > <?php echo "$file_cont[team]"; ?></h2>
-      <p><?php echo "$file_cont[desc]"; ?></p>
+      <h2> <?= $file_cont['team'] ?></h2>
+      <p><?= $file_cont['desc'] ?></p>
     </div>
- <h3 style="margin-left: -87px;"> <?php echo "$file_cont[adm]"; ?> </h3>
+ <h3> <?= $file_cont['adm'] ?> </h3>
       <div class="centerTeam"> 
           <div id="row">
-              <div class="col-md-3">
+              <div class="col-md-4">
                  <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                   <div class="caption">
-                    <h3><?php echo "$file_cont[memberAdm_N1]"; ?> 
+                    <h3><?= $file_cont['memberAdm_N1'] ?> 
                     </h3>
                     <h4 class="infoMember" >
-                      <?php echo "$file_cont[memberAdm_Psd1]"; ?> 
+                      <?= $file_cont['memberAdm_Psd1'] ?> 
                     </h4>
-                    <p><?php echo "$file_cont[memberAdm_D1]"; ?></p>
+                    <p><?= $file_cont['memberAdm_D1'] ?></p>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-5">
                  <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                   <div class="caption">
                      <h3>
-                      <?php echo "$file_cont[memberAdm_N2]"; ?>
+                      <?= $file_cont['memberAdm_N2'] ?>
                       </h3>
                     <h4 class="infoMember">
-                        <?php echo "$file_cont[memberAdm_Psd2]"; ?> 
+                        <?= $file_cont['memberAdm_Psd2'] ?> 
                      </h4>
 
-                    <p><?php echo "$file_cont[memberAdm_D2]"; ?></p>
+                    <p><?= $file_cont['memberAdm_D2'] ?></p>
                 </div>
               </div>
+              <div class="col-md-2"></div>
             </div>
           </div>
         </div>
         </div>
 
-        <?php if( ($file_cont[nb_member]%4) == 0 )
+        <?php if( ($file_cont['nb_member']%4) == 0 )
           {
-            $count=$file_cont[nb_member]/4;
+            $count=$file_cont['nb_member']/4;
           }
           else
           {
-            $count=$file_cont[nb_member]/4 ;
-            $resul = $file_cont[nb_member]%4;
+            $count=$file_cont['nb_member']/4 ;
+            $resul = $file_cont['nb_member']%4;
           }
         ?>
 
@@ -110,7 +107,7 @@
             <div class="col-md-3 col-sm-6 team">
              <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
               <div class="caption">
-                <h3><?php echo "$file_cont[$name1] "; ?>
+                <h3><?= $file_cont[$name1] ?>
                 </h3>
                      <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub1])): ?>
@@ -125,16 +122,16 @@
                    </a>';?>
                 <?php endif;?>
                 <?php  if (!empty($file_cont[$pseudo1])): ?>
-                     <?php echo "$file_cont[$pseudo1]" ;?>
+                     <?= $file_cont[$pseudo1] ?>
                 <?php endif;?>
                     </h4>
-                <p><?php echo "$file_cont[$desc1]"; ?></p>
+                <p><?= $file_cont[$desc1] ?></p>
               </div>
             </div>
             <div class="col-md-3 col-sm-6 team">
                <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
               <div class="caption">
-                <h3><?php echo "$file_cont[$name2]"; ?></h3>
+                <h3><?= $file_cont[$name2] ?></h3>
                      <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub2])): ?>
                      <?php echo'<a href="'.$file_cont[$Isgithub2].'" >
@@ -147,16 +144,16 @@
                    </a>';?>
                 <?php endif;?>
                     <?php  if (!empty($file_cont[$pseudo2])): ?>
-                     <?php echo "$file_cont[$pseudo2]" ;?>
+                     <?= $file_cont[$pseudo2] ?>
                 <?php endif;?>
                     </h4>
-                <p><?php echo "$file_cont[$desc2]"; ?></p>
+                <p><?= $file_cont[$desc2] ?></p>
               </div>
             </div>
             <div class="col-md-3 col-sm-6 team">
               <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                 <div class="caption">
-                  <h3><?php echo "$file_cont[$name3]"; ?></h3>
+                  <h3><?= $file_cont[$name3] ?></h3>
                        <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub3])): ?>
                      <?php echo' <a class="infoMember"  href="'.$file_cont[$Isgithub3].'" >
@@ -169,17 +166,17 @@
                    </a>';?>
                 <?php endif;?>
                   <?php  if (!empty($file_cont[$pseudo3])): ?>
-                     <?php echo "$file_cont[$pseudo3]";?>
+                     <?= $file_cont[$pseudo3] ?>
                 <?php endif;?>
                     </h4>
-                  <p><?php echo "$file_cont[$desc3]"; ?></p>
+                  <p><?= $file_cont[$desc3] ?></p>
               </div>
             </div>
 
            <div class="col-md-3 col-sm-6 team">
                 <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
                   <div class="caption">
-                    <h3><?php echo "$file_cont[$name4]"; ?></h3>
+                    <h3><?= $file_cont[$name4] ?></h3>
                          <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub4])): ?>
                      <?php echo' <a class="infoMember"  href="'.$file_cont[$Isgithub4].'" >
@@ -192,10 +189,10 @@
                    </a>';?>
                 <?php endif;?>
                     <?php  if (!empty($file_cont[$pseudo4])): ?>
-                     <?php echo "$file_cont[$pseudo4]" ;?>
+                     <?= $file_cont[$pseudo4] ?>
                 <?php endif;?>
                     </h4>
-                    <p><?php echo "$file_cont[$desc4]"; ?></p>
+                    <p><?= $file_cont[$desc4] ?></p>
                 </div>
           </div>
         </div>
@@ -214,7 +211,7 @@
             <div class="col-md-3 col-sm-6 team">
              <img src="/img/team/user_default.png" alt="..." class="img-circle team-img">
               <div class="caption">
-                <h3><?php echo "$file_cont[$name1] "; ?></h3>
+                <h3><?= $file_cont[$name1] ?></h3>
                     <h4 class="infoMember" >
                 <?php if (!empty($file_cont[$Isgithub1])): ?>
                      <?php echo' <a class="infoMember"  href="'.$file_cont[$Isgithub1].'" >
@@ -227,10 +224,10 @@
                    </a>';?>
                 <?php endif;?>
                     <?php  if (!empty($file_cont[$pseudo1])): ?>
-                     <?php echo "$file_cont[$pseudo1]" ;?>
+                     <?= $file_cont[$pseudo1] ?>
                 <?php endif;?>
                     </h4>
-                <p><?php echo "$file_cont[$desc1]"; ?></p>
+                <p><?= $file_cont[$desc1] ?></p>
               </div>
             </div>
           <?php endfor; ?>
