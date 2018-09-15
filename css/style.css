@@ -656,7 +656,7 @@ header .intro-text {
 
 #dropdownPrsnt 
 {
-	margin-top: 7px;
+	margin-top: 9px;
 }
 
 
@@ -1484,4 +1484,23 @@ margin-bottom: 30px;
 {
 	margin-right: 10px;
 	left: 5px;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color: #DDD;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	color: #999;
+}
+
+#dropdownMenu2 {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#dropdownMenu2:hover, #dropdownMenu2:focus {
+	color: #BBB;
 }
