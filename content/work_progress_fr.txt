@@ -1,79 +1,55 @@
 title=Travaux en cours 
-desc=Cette page montre l'ensemble des travaux en cours et vous pouvez trouver plus de detail sur
+desc=Cette page montre l'ensemble des travaux en cours.<br>Vous pouvez trouver plus de detail sur le site de développement collaboratif :
 doc_task=Doc technique
 author_doc=mise à jour permanente (ALCASAR team)
 core_title=Core
-nbCore_task=13
+nbCore_task=9
 task1_CoreC=Compatibilité 802.1x (tls)
 task1_Core%=90
 task1_CoreA=Rexy + ESIEA students
 
-task2_CoreC=Migration "apache" vers "lighttpd"
-task2_Core%=100
-task2_CoreA=Lucas
+task2_CoreC=Étudier un système de synchronisation d'un parc d'ALCASAR (alcasar central + satellites). (voir : <a href="https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450">forum</a>)
+task2_Core%=10
+task2_CoreA=Tom
 
-task3_CoreC=Migration "Dansguardian" vers "E2guardian"
-task3_Core%=100
-task3_CoreA=Armand
+task3_CoreC=Améliorer le système d'agrégat de liens WAN (plusieurs box de FAI) en intégrant l'équilibrage par usager 
+task3_Core%=5
+task3_CoreA=Rexy
 
-task4_CoreC=Étudier un système de synchronisation d'un parc d'ALCASAR (alcasar central + satellites). (voir : <a href="https://adullact.net/forum/forum.php?thread_id=318759&forum_id=1601&group_id=450">forum</a>)
-task4_Core%=10
-task4_CoreA=Tom + Mohamad
+task4_CoreC=Multi-LAN : ALCASAR contrôle plusieurs réseaux de consultation (VLAN)
+task4_Core%=20
+task4_CoreA=Lucas + Rexy
 
-task5_CoreC=Améliorer le système d'agrégat de liens WAN (plusieurs box de FAI) en intégrant l'équilibrage par usager 
-task5_Core%=5
-task5_CoreA=Rexy
+task5_CoreC=Supervision distante via un agent GLPI (OCS inventory)
+task5_Core%=50
+task5_CoreA=3abtux
 
-task6_CoreC=Prise en compte du multi-LAN (un ALCASAR pour plusieurs réseaux de consultation)
-task6_Core%=20
-task6_CoreA=Lucas + Rexy
+task6_CoreC=Intégrer un WAF sur l'ACC et les formulaires usagers (ex: mod-security, nginx+naxsi, etc.)
+task6_Core%=0
+task6_CoreA=?
 
-task7_CoreC=Supervision système à distance via agents GLPI (OCS ou Fusion inventory)
-task7_Core%=50
+task7_CoreC=Créer un groupe par défaut et lier les groupes A.D. aux groupes ALCASAR
+task7_Core%=0
 task7_CoreA=3abtux
 
-task8_CoreC=Intégrer un WAF sur les formulaires usagers et ACC (nginx + naxsi ?)
-task8_Core%=0
-task8_CoreA=?
+task8_CoreC=Migration "DNSmasq" vers "Unbound"
+task8_Core%=50
+task8_CoreA=Lucas
 
-task9_CoreC=Créer un groupe par défaut et lier les groupes A.D. aux groupes ALCASAR
-task9_Core%=0
-task9_CoreA=3abtux
-
-task10_CoreC=Ajouter un attribut "volume téléchargé max" / jour|semaine|mois
-task10_Core%=100
-task10_CoreA=Rexy + Tom
-
-task11_CoreC=Réarchitecture de la gestion des filtres spécifiques (antivirus, filtrage réseau, blacklist et whitelist)
-task11_Core%=100
-task11_CoreA=Tom
-
-task12_CoreC=Migration "DNSmasq" vers "Unbound"
-task12_Core%=50
-task12_CoreA=Lucas
-
-task13_CoreC=Permettre la mise à jour même si la version de l'OS évolue
-task13_Core%=50
-task13_CoreA=Rexy
+task9_CoreC=Permettre la mise à jour même si la version de l'OS évolue
+task9_Core%=50
+task9_CoreA=Rexy
 
 design_title= Graphical interface (ACC) 
-nbTask_graph=5
-task1_graphC=Créer un template 'responsive' pour les pages présentées aux usagers (intercept.php - changement de mot de passe - index.php). Permettre le changement et la personnalisation de ce template
+nbTask_graph=3
+task1_graphC=Créer un template 'responsive' pour les pages usagers. Permettre la personnalisation de ce template
 task1_graph%=0
-task1_graphA=?
+task1_graphA=Fabien
 
-task2_graphC=envoi automatique des fichiers journaux (par mel et par ssh)
+task2_graphC=Envoi automatique des fichiers journaux (par mèl ou par ssh)
 task2_graph%=0
 task2_graphA=3abtux
 
 task3_graphC=Permettre la mise à jour d'ALCASAR via l'ACC
 task3_graph%=50
 task3_graphA=Rexy
-
-task4_graphC=Finish ACC Look & Fel (stat + imputability reportl)
-task4_graph%=100
-task4_graphA=Fabien
-
-task5_graphC=Ne pas proposer le téléchargement du certificat quand ce dernier est un certificat officiel.
-task5_graph%=0
-task5_graphA=Fabien

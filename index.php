@@ -1,11 +1,8 @@
 <?php
-  
-
   $basepath = "root";
   require "header.php";
   $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-  $file_desc = loadLanguage("description.txt",$basepath);
-  
+  if (!isset($lang)) {$lang="en";};
   switch ($lang)
   {
       case "fr":

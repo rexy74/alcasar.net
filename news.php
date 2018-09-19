@@ -42,22 +42,15 @@
                                   <li class="liNews"> <?= $file_cont['change_'.$i] ?> </li>
                                 <?php  endfor;?>
                         </ul>
-
              </div>
-
             </div>
               <div style="margin-top: 70px;">
                  <!-- <img   src="/img/arrow_news.png"> -->
               </div>
-                
           </div>
-
       </div>
     </div>
 </div>
-
-
-
 
 <?php
 

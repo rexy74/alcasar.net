@@ -14,16 +14,18 @@ why=why alcasar ?
 tilte_soft=software
 content_soft=ALCASAR uses the following "open sources" software
 
-nb_reason=6
+nb_reason=8
 reason_1=Authenticate and control Internet accesses
 reason_2=Trace and impute while respecting french & european laws
 reason_3=Respect the private life
-reason_4=Protect and filter flows per users ou users group ...
+reason_4=Protect and filter flows per users ou users group (HTTP antivirus, filtering of : network protocols, domain names, URLs and IP address)
 reason_5=Blacklist or whitelist filtering
-reason_6=Free & open source
-	
+reason_6=Access control by users or users group (connection time, time periods, download and bandwidth limits)
+reason_7=Run on a Virtual Machine or on a mini-PC with two Network Interface cards
+reason_8=Free & open source
+
 someState=Some Stats
-Visitor=Visitor number 2017
+Visitor=Visitor number
 donate=donation
 nb_Visitor=3468843
 downloadTarball=Tarball dowloads

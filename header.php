@@ -1,22 +1,16 @@
 <?php
-  
 include "setLanguage.php";
-
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$file_desc = loadLanguage("description.txt", $basepath);
-
+if (!isset ($lang)) { $lang = "en"; }
 switch ($lang)
 {
     case "fr":
-      //echo "PAGE FR";
       $file_topBar = loadLanguage("topbar_fr.txt", $basepath);
       break;
     default:
-      //echo "PAGE EN - Setting Default";
       $file_topBar = loadLanguage("topbar_en.txt",$basepath);
       break;
 }
-
 header('X-Frame-Options: SAMEORIGIN');
 header("Strict-Transport-Security:max-age=63072000");
 //header("Referrer-Policy : same-origin");
@@ -28,9 +22,21 @@ header('X-Content-Type-Options: nosniff');
 <html>
 <head>
   <meta charset="utf-8">
-  <title>ALCASAR</title>
-  <meta name="description" content="<?= $file_desc['description_fr'] ?>">
-
+  <title>ALCASAR WEB SITE</title>
+<?
+switch ($lang)
+{
+    case "fr":
+      echo "  <meta name=\"description\" content=\"ALCASAR est un controleur d'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental\">";
+      break;
+    default:
+      echo "  <meta name=\"description\" content=\"ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control\">";
+      break;
+}
+?>
+ 
+  <meta name="keywords" content="ALCASAR, Network Access Controler, captive portal, Free, Open Source, Private life respect">
+  <meta name="author" content="ALCASAR Team">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css"  href="/css/bootstrap.css">
