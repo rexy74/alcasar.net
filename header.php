@@ -23,14 +23,14 @@ header('X-Content-Type-Options: nosniff');
 <head>
   <meta charset="utf-8">
   <title>ALCASAR WEB SITE</title>
-<?
+<?php
 switch ($lang)
 {
     case "fr":
-      echo "  <meta name=\"description\" content=\"ALCASAR est un controleur d'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental\">";
+      echo '<meta name=\"description\" content=\"ALCASAR est un controleur d\'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental\">';
       break;
-    default:
-      echo "  <meta name=\"description\" content=\"ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control\">";
+    default :
+      echo '<meta name=\"description\" content=\"ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control\">';
       break;
 }
 ?>

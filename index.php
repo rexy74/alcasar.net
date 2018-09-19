@@ -1,8 +1,8 @@
 <?php
-<<<<<<< HEAD
+
   $basepath = "root";
   require "header.php";
-  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+   $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
   if (!isset($lang)) {$lang="en";};
   switch ($lang)
   {
@@ -17,27 +17,6 @@
         $file_topBar = loadLanguage("topbar_en.txt",$basepath);
         break;
   }
-=======
-
-$basepath = "root";
-require "header.php";
-$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$file_desc = loadLanguage("description.txt",$basepath);
-
-switch ($lang)
-{
-  case "fr":
-    //echo "PAGE FR";
-    $file_content = loadLanguage("index_fr.txt",$basepath);
-    $file_topBar = loadLanguage("topbar_fr.txt",$basepath);
-    break;
-  default:
-    //echo "PAGE EN - Setting Default";
-    $file_content = loadLanguage("index_en.txt",$basepath);
-    $file_topBar = loadLanguage("topbar_en.txt",$basepath);
-    break;
-}
->>>>>>> c31c057fcff259fae488da764125d4662837ecf1
 
 ?>
 
