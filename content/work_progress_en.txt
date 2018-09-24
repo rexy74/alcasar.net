@@ -37,9 +37,9 @@ task8_CoreC=Switch "DnsMasq" with "Unbound"
 task8_Core%=50
 task8_CoreA=Lucas
 
-task9_CoreC=Create a ISO filke of the current version
+task9_CoreC=Create a ISO file of the current version
 task9_Core%=50
-task9_CoreA=Rexy
+task9_CoreA=Laurent Roux
 
 design_title= Graphical interface (ACC) 
 task1_graphC=Creation of a response and customized template

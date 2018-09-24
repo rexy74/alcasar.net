@@ -36,9 +36,9 @@ task8_CoreC=Migration "DNSmasq" vers "Unbound"
 task8_Core%=50
 task8_CoreA=Lucas
 
-task9_CoreC=Permettre la mise à jour même si la version de l'OS évolue
+task9_CoreC=Création d'une image ISO de la version courante
 task9_Core%=50
-task9_CoreA=Rexy
+task9_CoreA=Laurent Roux
 
 design_title= Graphical interface (ACC) 
 nbTask_graph=3
