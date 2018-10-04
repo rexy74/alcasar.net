@@ -27,10 +27,10 @@ header('X-Content-Type-Options: nosniff');
 switch ($lang)
 {
     case "fr":
-      echo '<meta name=\"description\" content=\"ALCASAR est un controleur d\'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental\">';
+      echo '<meta name="description" content="ALCASAR est un controleur d\'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental">';
       break;
     default :
-      echo '<meta name=\"description\" content=\"ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control\">';
+      echo '<meta name="description" content="ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control">';
       break;
 }
 ?>
@@ -49,7 +49,11 @@ switch ($lang)
   <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
 </head>
 
+<?php if(isset($homepage) && $homepage == true): ?>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="homepage">
+<?php else: ?>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<?php endif; ?>
 <!-- Navigation -->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">

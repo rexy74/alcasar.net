@@ -1,22 +1,23 @@
 <?php
 
-  $basepath = "root";
-  require "header.php";
-   $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-  if (!isset($lang)) {$lang="en";};
-  switch ($lang)
-  {
-      case "fr":
-        //echo "PAGE FR";
-        $file_content = loadLanguage("index_fr.txt",$basepath);
-        $file_topBar = loadLanguage("topbar_fr.txt",$basepath);
-        break;
-      default:
-        //echo "PAGE EN - Setting Default";
-        $file_content = loadLanguage("index_en.txt",$basepath);
-        $file_topBar = loadLanguage("topbar_en.txt",$basepath);
-        break;
-  }
+$homepage = true;
+$basepath = "root";
+require "header.php";
+ $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+if (!isset($lang)) {$lang="en";};
+switch ($lang)
+{
+    case "fr":
+      //echo "PAGE FR";
+      $file_content = loadLanguage("index_fr.txt",$basepath);
+      $file_topBar = loadLanguage("topbar_fr.txt",$basepath);
+      break;
+    default:
+      //echo "PAGE EN - Setting Default";
+      $file_content = loadLanguage("index_en.txt",$basepath);
+      $file_topBar = loadLanguage("topbar_en.txt",$basepath);
+      break;
+}
 
 ?>
 
