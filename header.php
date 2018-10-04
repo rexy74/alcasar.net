@@ -27,10 +27,10 @@ header('X-Content-Type-Options: nosniff');
 switch ($lang)
 {
     case "fr":
-      echo '<meta name=\"description\" content=\"ALCASAR est un controleur d\'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental\">';
+      echo '<meta name="description" content="ALCASAR est un controleur d\'acces au réseau libre et gratuit. Traçabilité et imputabilité des connexions. Contrôle parental">';
       break;
     default :
-      echo '<meta name=\"description\" content=\"ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control\">';
+      echo '<meta name="description" content="ALCASAR is a open source network access controler. Traceability and imputablility of connections. Parental control">';
       break;
 }
 ?>
