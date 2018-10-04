@@ -13,7 +13,7 @@
 		}
 	  	  if (!file_exists($path))
 	  	  {
-			 exit("Fichier $file non présent");
+			 exit("Fichier $path non présent");
 	  	  }
 	  	$file_lang = fopen($path, 'r');
 	  	if (!$file_lang) {

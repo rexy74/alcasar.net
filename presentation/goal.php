@@ -70,7 +70,7 @@
             <div class="text">
                     <h3><?= $file_content['num_11'] ?></h3>
                     <p><?= $file_content['num_12'] ?></p>
-                    <p><?= $file_content['num_12Bis'] ?></p>
+                    <p><?= $file_content['num_12_Bis'] ?></p>
 
                     <h4><?= $file_content['num_13'] ?></h4>
                     

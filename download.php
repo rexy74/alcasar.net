@@ -46,6 +46,7 @@
                             <ul class="check-li">
                                 <li><?= $file_cont['num_5'] ?></li>
                                 <li><?= $file_cont['num_6'] ?></li>
+                                <li><?= $file_cont['num_7'] ?></li>
                             </ul>
                         </div>
                  </div>
@@ -66,32 +67,32 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                             <li> 
-                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.2-exploitation-en.pdf">alcasar-3.2-exploitation-en.pdf  </a>
+                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.3.1-exploitation-en.pdf">alcasar-3.3.1-exploitation-en.pdf  </a>
                             </li>
                             <li> 
-                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.2-installation-en.pdf">alcasar-3.2-installation-en.pdf  </a>
+                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.3.1-installation-en.pdf">alcasar-3.3.1-installation-en.pdf  </a>
                             </li>
                             <li> 
-                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.2-presentation-en.pdf">alcasar-3.2-presentation-en.pdf </a>
+                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.3.1-presentation-en.pdf">alcasar-3.3.1-presentation-en.pdf </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="check-li">
                            <li>
-                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.2-exploitation-fr.pdf" >alcasar-3.2-exploitation-fr.pdf</a>
+                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.3.1-exploitation-fr.pdf" >alcasar-3.3.1-exploitation-fr.pdf</a>
                            </li>
                             <li> 
-                              <a href="<?= $file_cont['link_5'] ?>" download="alcasar-3.2-installation-fr.pdf">alcasar-3.2-installation-fr.pdf</a>
+                              <a href="<?= $file_cont['link_5'] ?>" download="alcasar-3.3.1-installation-fr.pdf">alcasar-3.3.1-installation-fr.pdf</a>
                             </li>
                             <li> 
-                              <a href="<?= $file_cont['link_6'] ?>" download="alcasar-3.2-presentation-fr.pdf">alcasar-3.2-presentation-fr.pdf</a>
+                              <a href="<?= $file_cont['link_6'] ?>" download="alcasar-3.3.1-presentation-fr.pdf">alcasar-3.3.1-presentation-fr.pdf</a>
                             </li>
 
                         </ul>
                     </div>
 
-                    <i class="fa fa-download" style="color: #0e8390; margin-left: 5%; margin-top: 5%"> </i><a href="<?= $file_cont['link_7'] ?>" download="alcasar-3.2-technique.pdf">alcasar-3.2-technique.pdf</a>
+                    <i class="fa fa-download" style="color: #0e8390; margin-left: 5%; margin-top: 5%"> </i><a href="<?= $file_cont['link_7'] ?>" download="alcasar-3.3.1-technique.pdf">alcasar-3.3.1-technique.pdf</a>
                      <i class="fa fa-download" style="color: #0e8390; margin-left: 5%;"> </i><a href="<?= $file_cont['link_8'] ?>" download="changelog">changelog</a>
 
                  </div>

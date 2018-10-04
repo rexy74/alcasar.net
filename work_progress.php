@@ -27,21 +27,21 @@
                     <div style="margin-top: -33px;margin-left: -731px;margin-bottom: -268px;color: #25BAD0; position: relative;right: 51.333px;top: 79.167px;left: 541.667px;margin-right: 41px;width: 40%;text-align: right;">
                       <ul class="work">
                         <li style="top: 7px;left: 0px; right: 0px;" >Security </li>
-                        <li style="top: 11px;left: 0px; right: 0px;">New software  </li>
-                        <li style="top: 18px;left: 0px; right: 0px;">change Graphical interface</li>
+                        <li style="top: 11px;left: 0px; right: 0px;">Component updating</li>
+                        <li style="top: 18px;left: 0px; right: 0px;">Graphical interface improvements</li>
                       </ul>
                     </div>
                     
                     <div style="margin-top: 72px;margin-left: 773px;margin-bottom: -268px;color: #25BAD0; position: relative;right: -32.667px;top: 206.167px;left: -33.333px;">
                       <ul class="work">
-                        <li style="top: 7px; margin-left: 113px;left: 0px;text-align: left;" >Fix bugs</li>
-                        <li style="top: 11px;margin-left: 113px;left: 0px;text-align: left;">Update Documentation</li>
-                        <li style="top: 18px; margin-left: 113px;left: 0px;text-align: left;">?</li>
+                        <li style="top: 7px; margin-left: 113px;left: 0px;text-align: left;" >Bugs fixing</li>
+                        <li style="top: 11px;margin-left: 113px;left: 0px;text-align: left;">Documentation updating</li>
+                        <li style="top: 18px; margin-left: 113px;left: 0px;text-align: left;">New functionalities</li>
                       </ul>
                     </div>
                     
                   <img  src="/img/work_personne.png" style="margin-top: 233px;">      
-                  <div class="text-center" style="margin-top: 51px;"> 
+<!--                  <div class="text-center" style="margin-top: 51px;"> 
                   <h2 class="Doc"> <span> Documentation </span></h2>
                 </div>
 
@@ -53,7 +53,7 @@
                     </div>
                 </div>  
                     <p class="positionAuthor"><?= $file_cont['author_doc'] ?> </p>
-            </div>
+-->            </div>
 
 
                <div id="coreTitle">

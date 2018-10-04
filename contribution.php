@@ -24,7 +24,6 @@
     <div class="overlay">
         <div class="container">        
             <div id="servicesContribution" class="text-center" >
-
                        <h2> <?php echo "$file_cont[num_1]"; ?> </h2>
         <div class="container">
           <div class="centerText">
