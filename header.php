@@ -43,7 +43,11 @@ header('X-Content-Type-Options: nosniff');
   <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
 </head>
 
+<?php if(isset($homepage) && $homepage == true): ?>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="homepage">
+<?php else: ?>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<?php endif; ?>
 <!-- Navigation -->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
