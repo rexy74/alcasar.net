@@ -39,8 +39,8 @@ switch ($lang)
 <div class="container">
   <!-- Services Section -->
   <div id="servicesIndex" class="text-center">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 section-title">
+    <div class="row section-title">
+      <div class="col-md-8 col-md-offset-2">
         <h2><?= $file_content['num_1'] ?></h2>
         <p><?= $file_content['num_2'] ?></p>
       </div>
