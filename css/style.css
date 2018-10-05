@@ -37,13 +37,11 @@ h2 {
 
 .hDownload
 {
-	line-height: 20px;
 	margin: 0;
 	color: #25BAD0;
 	margin-bottom: 0px;
 	font-size: 30px;
 	font-weight: 400;
-	padding-bottom: 10px;
 }
 
 .hWork
@@ -253,7 +251,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', end
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#99053740', GradientType=0 ); /* IE6-9 */
 }
 .section-title {
-	padding: 25px 0 60px 0;
+	margin: 25px 0 60px 0;
 }
 .intro H1 {
 	font-size: 60px;
@@ -713,10 +711,13 @@ color: #ccc;
   -moz-transform: skewX(-12deg);
   transform: skewX(-12deg);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .flex-section .flex-img:before {
     display: none;
 
+  }
+  .navbar {
+  	background-color: #03252b !important;
   }
 }
 .flex-section .col-1 {
@@ -918,31 +919,40 @@ color: #ccc;
 	margin-bottom: 30px;
 }
 
-#servicesContribution  {
+#servicesContribution {
 	padding: 100px 0px 300px 0px;
 	background: #053740;
 	margin-right: 15px;margin-left: 15px;
 }
 
-#servicesWork  {
+#servicesWork {
 	padding: 100px 0px 100px 0px;
 	background: #053740;
 	margin-right: 15px;margin-left: 15px;
 }
 
-#servicesInside  {
+#servicesInside {
 	margin-top: 138px;
 	background: #053740;
 }
 
 #servicesDownload 
 {
-	padding: 100px 0px 150px 0px;
+	margin-top: 30px;
+	padding: 10px 10px 30px 10px;
+	width: 75%;
 	background: #053740;
-	width: 940px;
-	height: 480px;
-	margin-left:140px;
-    padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  #servicesDownload 
+  {
+	width: 90%;
+  }
+}
+
+.wordbreak {
+	word-break: break-all;
 }
 
 #servicesExploit
@@ -951,16 +961,11 @@ color: #ccc;
 	background: #053740;
 }
 
-
-
-.paddingDownload {
-	margin-top: 80px;
-}
-
 .check-li {
   padding: 0;
   margin: 0;
 }
+
 .check-li li {
   padding: 0;
   margin: 0;
@@ -1041,6 +1046,11 @@ color: #ccc;
   font-size: 26px;
   color: #66D37E;
 }
+
+.testIco {
+	padding-left: 20px;
+}
+
 .testIco span:before
 {
 	font-family: 'icomoon';
@@ -1106,13 +1116,6 @@ color: #ccc;
   color: #0e8390;	
 }
 
-.fixPstDoc
-{
-	margin-top: -87px;
-	text-align: left;
-	margin-left:14px;
-}
-
 .p-button--positive {
     background-color: #0e8390;
     border-color: #0e8390;
@@ -1137,31 +1140,19 @@ color: #ccc;
 	font-size: 28px;
 }
 
-.downloadIcon
-{
-	margin-left: 77px;
-	margin-right: 114px;
-}
-
-.div1
-{
-	margin-top: 23px;
-	margin-left: 68px;
-}
-
 .fixDownloadPst
 {
 	margin-top: 6px;margin-left: 10px;
 }
 
+.downloadIcon {
+	color: #0e8390;
+}
 
 #servicesMid
 {
 	background: #053740;
-	width: 47%;
-	padding: 100px 0px 0px 0px;
-	height: 460px;
-	margin-bottom: 165px;
+	padding: 10px 10px 10px 10px;
 }
 
 #whyContainer
@@ -1184,25 +1175,16 @@ color: #ccc;
 #outPopUp {
 
   margin-left: 25%;
-}	
+}
+
+#servicesMid, #servicesMidBis {
+	margin-top: 80px;
+}
 
 #servicesMidBis
 {
 	background: #053740;
-	width: 48%;
-	padding: 90px 0px 0px 0px;
-	height: 460px;
-}
-
-.paddingDwnld
-{
-	margin-left: 7px !important;
-}
-
-.resizeContainer
-{
-	margin-left: 595px;
-	margin-top: -623px;
+	padding: 10px;
 }
 
 .centerbar
