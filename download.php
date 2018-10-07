@@ -17,7 +17,7 @@
         break;
   }
 ?>
-<div class="intro container" style="padding-top: 125px">
+<div class="intro container download-offset">
         <div class="row text-center">        
             <div class="hDownload" ><?= $file_cont['title'] ?></div>
         </div>

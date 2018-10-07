@@ -4,6 +4,7 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: rgba(255,255,255,0.5);
 	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%), url(../img/background.jpg) no-repeat center;
+	background-size: cover;
 	background-blend-mode: blend;
 	min-width: 236px;
 	min-height: 100%;
@@ -44,6 +45,10 @@ h2 {
 	font-weight: 400;
 }
 
+.download-offset {
+	padding-top: 125px;
+}
+
 .hWork
 {
 	line-height: 20px;
@@ -53,6 +58,10 @@ h2 {
 	font-size: 40px;
 	font-weight: 400;
 	padding-bottom: 10px;
+}
+
+.work-offset {
+	padding-top: 125px;
 }
 
 h3 {
@@ -926,9 +935,21 @@ color: #ccc;
 }
 
 #servicesWork {
-	padding: 100px 0px 100px 0px;
+	padding: 0px 0px 50px 0px;
 	background: #053740;
 	margin-right: 15px;margin-left: 15px;
+}
+
+#servicesWork {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #servicesWork 
+  {
+	display: none;
+  }
 }
 
 #servicesInside {
@@ -1209,13 +1230,16 @@ margin-bottom: 30px;
 
 .fixPstCore
 {
-	padding-bottom: 0px;margin-bottom: 16px;padding-top: -71px;margin-top: 19px;
-
+	padding-bottom: 0px;
+	margin-bottom: 16px;
+	padding-top: -71px;
+	margin-top: 19px;
+	padding-left: 10px;
 }
 
 .longDescriptTask
 {
-	text-align: left;
+	text-align: center;
 	font-size: 0.9em;
 	margin-bottom: 0px !important;
 }
@@ -1228,7 +1252,10 @@ margin-bottom: 30px;
 .styleBar
 {
 	background-color:black;
-	width: 80%;
+}
+
+.task-center {
+	width: 50%;
 }
 
 .graph span:before
@@ -1263,28 +1290,15 @@ margin-bottom: 30px;
 
 /* Services Section */
 #barPrgrssCore  {
-	padding: 60px 0px 0px 0px;
+	padding-top: 15px;
 	background: #053740;
-	width: 50% !important;
-
-}
-.barPrgrssCoreLeft
-{
-	margin-top: 0px !important;padding-top: 0px !important;
-}
-
-.barPrgrssCoreRight
-{
-	margin-left: 561px;margin-top: -155px;
 }
 
 #graphicalAcc
 {
-	padding: 60px 0px 0px 0px;
 	background: #053740;
-	width: 90% !important;
-	margin-left: 62px;
 	margin-top: 64px;
+	margin-bottom: 20px;
 }
 
 .aboutText
@@ -1357,15 +1371,13 @@ margin-bottom: 30px;
 
 #coreTitle
 {
-	padding: 30px 0px 30px 0px;
 	background: #053740;
 	margin-top: 40px;
-	margin-bottom: -35px;
-
 }
-#taskCore
+.taskCore
 {
-	padding: 10px 0px 10px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background: #053740;
 }
 
