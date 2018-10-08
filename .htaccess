@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteRule ^download$ download.php [NC]
+RewriteRule ^telechargement$ download.php [NC]
+
+RewriteRule ^news$ news.php [NC]
+RewriteRule ^actualites$ news.php [NC]
+
+RewriteRule ^work$ work_progress.php [NC]
+RewriteRule ^travaux$ work_progress.php [NC]
+
+RewriteRule ^contribution$ contribution.php [NC]
+
+RewriteRule ^goals$ presentation/goal.php [NC]
+RewriteRule ^objectifs$ presentation/goal.php [NC]
+
+RewriteRule ^exploitation$ presentation/exploitation.php [NC]
+
+RewriteRule ^software$ presentation/software.php [NC]
+RewriteRule ^logiciels$ presentation/software.php [NC]
+
+RewriteRule ^team$ presentation/team.php [NC]
+RewriteRule ^equipe$ presentation/team.php [NC]
