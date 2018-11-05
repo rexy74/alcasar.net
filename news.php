@@ -20,7 +20,7 @@
       <div class="row">
           <div id="aboutNews">
             <div class="col-md-9">
-              <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;">   <?= $file_cont['content'] ?> <a href="/download.php"> <i class="fa fa-download" style="color: #0e8390"> </i> </a> </p> 
+              <p style="color: #25BAD0; font-size: 20px;margin-bottom: 23px;"> <?= $file_cont['content'] ?> <a href="/download.php"> <i class="fa fa-download" style="color: #0e8390"> </i> </a> </p> 
                 <ul class="plus-news">
                   <?php 
                         for ($i=0; $i < $file_cont['number_change']; $i++) :  ?> 
