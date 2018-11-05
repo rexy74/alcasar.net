@@ -1,5 +1,5 @@
 news=new
-content=September, 16th 2018 - The version 3.3.2 is available here :
+content=November, 4th 2018 - The version 3.3.2 is available here :
 number_change=3
 change_0=Update automatically since version 3.2 and higher
 change_1=To update from a previous version, read the file  <i style="color: #25BAD0"><a href="https://adullact.net/docman/view.php/450/3761/readme.txt">readme</a></i>

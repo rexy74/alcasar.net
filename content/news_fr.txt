@@ -1,5 +1,5 @@
 news= Nouveau
-content= 16 septembre 2018 - La version 3.3.2 est disponible ici :
+content= 4 novembre 2018 - La version 3.3.2 est disponible ici :
 number_change=3
 change_0=La mise à jour depuis une version 3.2 et supérieure est automatique
 change_1=Pour une mise à jour depuis une version antérieure, lisez le fichier <i style="color: #25BAD0"><a href="https://adullact.net/docman/view.php/450/3761/readme.txt">readme</a></i>
