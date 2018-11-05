@@ -78,26 +78,26 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                             <li> 
-                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.3.1-exploitation-en.pdf">alcasar-3.3.1-exploitation-en.pdf</a>
+                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.3.1-exploitation-en.pdf">alcasar-3.3.2-exploitation-en.pdf</a>
                             </li>
                             <li> 
-                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.3.1-installation-en.pdf">alcasar-3.3.1-installation-en.pdf</a>
+                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.3.1-installation-en.pdf">alcasar-3.3.2-installation-en.pdf</a>
                             </li>
                             <li> 
-                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.3.1-presentation-en.pdf">alcasar-3.3.1-presentation-en.pdf</a>
+                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.3.1-presentation-en.pdf">alcasar-3.3.2-presentation-en.pdf</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <ul class="check-li">
                            <li>
-                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.3.1-exploitation-fr.pdf" >alcasar-3.3.1-exploitation-fr.pdf</a>
+                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.3.1-exploitation-fr.pdf" >alcasar-3.3.2-exploitation-fr.pdf</a>
                            </li>
                           <li> 
-                            <a href="<?= $file_cont['link_5'] ?>" download="alcasar-3.3.1-installation-fr.pdf">alcasar-3.3.1-installation-fr.pdf</a>
+                            <a href="<?= $file_cont['link_5'] ?>" download="alcasar-3.3.1-installation-fr.pdf">alcasar-3.3.2-installation-fr.pdf</a>
                           </li>
                           <li> 
-                            <a href="<?= $file_cont['link_6'] ?>" download="alcasar-3.3.1-presentation-fr.pdf">alcasar-3.3.1-presentation-fr.pdf</a>
+                            <a href="<?= $file_cont['link_6'] ?>" download="alcasar-3.3.1-presentation-fr.pdf">alcasar-3.3.2-presentation-fr.pdf</a>
                           </li>
 
                         </ul>
