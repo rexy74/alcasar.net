@@ -1,5 +1,5 @@
 title=Download the last version of ALCASAR
-version=alcasar-3.3.1
+version=alcasar-3.3.2
 download=Download
 descpt=
 digest=Digest

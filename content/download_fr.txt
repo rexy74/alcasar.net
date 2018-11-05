@@ -1,5 +1,5 @@
 title=Télécharger la dernière version d'ALCASAR
-version=alcasar-3.3.1
+version=alcasar-3.3.2
 download=Télécharger
 descpt=
 digest=Empreinte
