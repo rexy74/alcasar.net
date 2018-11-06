@@ -91,7 +91,7 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                            <li>
-                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.3.12exploitation-fr.pdf" >alcasar-3.3.2-exploitation-fr.pdf</a>
+                           <a href="<?= $file_cont['link_4'] ?>" download="alcasar-3.3.2exploitation-fr.pdf" >alcasar-3.3.2-exploitation-fr.pdf</a>
                            </li>
                           <li> 
                             <a href="<?= $file_cont['link_5'] ?>" download="alcasar-3.3.2-installation-fr.pdf">alcasar-3.3.2-installation-fr.pdf</a>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                      <i class="fa fa-download downloadIcon"> </i><a href="<?= $file_cont['link_7'] ?>" download="alcasar-3.3.1-technique.pdf"> alcasar-3.3.1-technique.pdf</a>
+                      <i class="fa fa-download downloadIcon"> </i><a href="<?= $file_cont['link_7'] ?>" download="alcasar-3.3.2-technique.pdf"> alcasar-3.3.2-technique.pdf</a>
                     </div>
                     <div class="col-md-6">
                       <i class="fa fa-download downloadIcon"> </i><a href="<?= $file_cont['link_8'] ?>" download="changelog"> changelog</a>
