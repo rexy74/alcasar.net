@@ -145,20 +145,26 @@
                     </div>
                     <div class="col-md-6">
                         <ul class="check-li">
-                            <li>
-                               <a href="<?= $file_cont['link_15'] ?>" download="Rapport - Olivier HOUSSENBAY - 802.1x.pdf">Rapport - Olivier HOUSSENBAY - 802.1x </a>
+
+                        	
+                        	<li>
+                               <a href="<?= $file_cont['link_14'] ?>" download="Rapport - Nicolas Aubry - Enregistrement par SMS.pdf">Rapport - Nicolas Aubry - Enregistrement par SMS </a>
                               </li>
-                          <li>
-                              <a href="<?= $file_cont['link_16'] ?>" download="Tutoriel_alcasar_Utilisation_d\'une_clé_3G-4G_sur_une_VM.pdf">Tutoriel - Johan RABOUIN - Utilisation d\'une clé 3G-4G sur une VM </a>
+                            <li>
+                            <li>
+                               <a href="<?= $file_cont['link_15'] ?>" download="Rapport - Olivier HOUSSENBAY - 802.1x.pdf">Rapport - Olivier Houssenbay - 802.1x  </a>
+                              </li>
+                            <li>
+                               <a href="<?= $file_cont['link_16'] ?>" download="Rapport - Raphael PION - ALCASAR V3.pdf">Rapport - Raphael PION - ALCASAR V3  </a>
+                              </li>
+                            <li>
+                                <a href="<?= $file_cont['link_17'] ?>" download="Tutoriel-alcasar-AD">Tutoriel-alcasar-AD</a>
+                              </li>
+                            <li>
+                              <a href="<?= $file_cont['link_18'] ?>" download="Tutoriel permettant d'accéder à une clé 3G/4G">Tutoriel permettant d'accéder à une clé 3G/4G à partir d'une machine virtuelle </a>
                             </li>
-                            <li>
-                               <a href="<?= $file_cont['link_17'] ?>" download="Tutoriel_Alcasar_virtualisation.pdf">Tutoriel VirtualHere </a>
-                              </li>
-                            <li>
-                                <a href="<?= $file_cont['link_18'] ?>" download="Tutoriel_Alcasar_Active_Directory.pdf">Tutoriel - Matthias Leclair - Connexion ALCASAR avec un AD </a>
-                              </li>
-                            <li>
-                              <a href="<?= $file_cont['link_14'] ?>" download="Rapport - Nicolas AUBRY - Enregistrement par SMS.pdf">Rapport - Nicolas AUBRY - Enregistrement par SMS </a>
+                             <li>
+                              <a href="<?= $file_cont['link_19'] ?>" download="Tutoriel - virtualisation.pdf">Tutoriel permettant de créer un environnement de test virtuel exploitant VirtualBox</a>
                             </li>
                         </ul>
                     </div>
