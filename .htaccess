@@ -1,3 +1,5 @@
+Options -Indexes
+
 RewriteEngine on
 RewriteRule ^download$ download.php [NC]
 RewriteRule ^telechargement$ download.php [NC]
