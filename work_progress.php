@@ -35,7 +35,7 @@
           <li style="top: 18px; margin-left: 113px;left: 0px;text-align: left;">New functionalities</li>
         </ul>
       </div>
-      <img src="/img/work_personne.png" style="margin-top: 233px;margin-left: 180px;">      
+      <img src="/img/work_personne.png" style="margin-top: 260px;margin-left: 180px;">
     </div>
   </div>
   <div class="row">
