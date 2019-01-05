@@ -78,13 +78,13 @@
                     <div class="col-md-6">
                         <ul class="check-li">
                             <li> 
-                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.3.2-exploitation-en.pdf">alcasar-3.3.2-exploitation-en.pdf</a>
+                              <a href="<?= $file_cont['link_1'] ?>" download="alcasar-3.3.3-exploitation-en.pdf">alcasar-3.3.2-exploitation-en.pdf</a>
                             </li>
                             <li> 
-                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.3.2-installation-en.pdf">alcasar-3.3.2-installation-en.pdf</a>
+                              <a href="<?= $file_cont['link_2'] ?>" download="alcasar-3.3.3-installation-en.pdf">alcasar-3.3.2-installation-en.pdf</a>
                             </li>
                             <li> 
-                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.3.2-presentation-en.pdf">alcasar-3.3.2-presentation-en.pdf</a>
+                             <a href="<?= $file_cont['link_3'] ?>" download="alcasar-3.3.3-presentation-en.pdf">alcasar-3.3.2-presentation-en.pdf</a>
                             </li>
                         </ul>
                     </div>
